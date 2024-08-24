@@ -167,7 +167,7 @@ img {
         elif app == 'Nostalgia Narrator':
             chatbot.app()
         
-        elif app == 'writer':
+        elif app == 'idkkk':
             lastpage.app()
 
         
