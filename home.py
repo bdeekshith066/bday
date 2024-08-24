@@ -2,6 +2,9 @@ import streamlit as st
 import time
 import io
 
+
+ #for this page u will be taking input of name , one liner about the person , bday wishing message , video , audio
+
 def app():
     gradient_text_html = """
         <style>
@@ -65,4 +68,4 @@ def app():
     st.write('Think this is it? 🎁 There’s more to discover! Head to the top left corner for extra surprises')
 
 
-    #for this page u will be taking input of name , one liner about the person , bday wishing message , video , audio
+   
