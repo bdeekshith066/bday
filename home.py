@@ -60,4 +60,9 @@ def app():
     st.video(video_bytes)
 
 
+    st.write('')
+    st.write('')
+    st.write('Think this is it? 🎁 There’s more to discover! Head to the top left corner for extra surprises')
+
+
     #for this page u will be taking input of name , one liner about the person , bday wishing message , video , audio
