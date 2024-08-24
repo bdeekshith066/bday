@@ -39,7 +39,7 @@ class MultiApp:
             "function": func
         })   
 
-    def run(self):  # Need to include self as the first parameter
+    def run(self):  
         with st.sidebar:
             
            
