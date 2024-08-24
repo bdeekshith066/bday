@@ -5,6 +5,9 @@ st.set_page_config(layout="wide")
 import streamlit.components.v1 as components
 
 
+#this  file contains code of sidebar...(for this page u will have to take input of nickname...this name will be used for typing animation part in the sidebar, followdd by images ..max of 5  images) the sizing of images have to be mentioned.....
+
+
 import  home, chatbot, lastpage
 
 # Reducing whitespace on the top of the page
@@ -50,6 +53,9 @@ class MultiApp:
             }
           </style>
         """, unsafe_allow_html=True)
+
+
+             # this is for typing animation ...in the next line u can see right nickmame....that should be changed to whayever the user enters..
             
             typing_animation = """
             <h3 style="text-align: left;">
@@ -66,6 +72,11 @@ class MultiApp:
             st.write('')
             st.write('')
             st.write('')
+
+
+
+
+            #image...and image animation
 
             components.html(
     """
