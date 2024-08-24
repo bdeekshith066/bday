@@ -1,5 +1,8 @@
 import streamlit as st
 
+
+#here we will take inputs of questions , answers and hints and alo the keywords...
+
 st.markdown("""
 <style>
 
@@ -56,7 +59,7 @@ def app():
     unsafe_allow_html=True
 )
 
-
+    #set of questions have inlucded in forms for better UI
     with st.form('Question1'):
         st.write(" :orange[1].  Still remember the day we met, it was as if the universe had conspired to bring us together.  We struck up a conversation, and I knew in that instant that I wanted to spend more time with you. What was the date that changed my life forever?")
 
@@ -95,6 +98,8 @@ def app():
     st.write('')
     st.write('')
 
+
+    # keywords......
     def get_fest_info(user_input):
         fest_info = {
            
@@ -109,7 +114,7 @@ def app():
 
             
         }
-
+        
         user_input_lower = user_input.lower()
 
         for fest, info in fest_info.items():
