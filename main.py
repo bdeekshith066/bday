@@ -60,7 +60,7 @@ class MultiApp:
             
             app = option_menu(
                 menu_title='Sections',
-                options=['Home','Nostalgia Narrator', 'writer'],
+                options=['Home','Nostalgia Narrator', 'idkkk'],
                 default_index=0,
             )
             st.write('')
